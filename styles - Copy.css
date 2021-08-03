@@ -1,0 +1,143 @@
+* {
+    scroll-behavior: smooth;
+}
+
+
+
+.navbar-custom {
+  background-color: #ee9ca7;
+}
+.navbar-custom .navbar-brand {
+  color: white;
+}
+.navbar-custom .navbar-collapse .navbar-nav .nav-item .nav-link {
+  color: white;
+}
+.navbar-custom .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+  color: black;
+}
+.Headimage {
+  background-color: #a8ff78;
+  height: 90vh;
+}
+#image {
+  border-radius: 200px;
+  height: 300px;
+  width: 300px;
+}
+.Intro {
+  background-color:  white;
+  color: black;
+}
+.Heading {
+  font-size: 3.4rem;
+  font-family: 'Sansita Swashed', cursive;
+  color: #3fada8;
+}
+.ProjectTitle{
+  color: #ffa751;
+}
+.parallax{
+  background-image: url('images/Lappy.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.experience {
+  border-radius: 16px;
+
+}
+.follow {
+  background-color: red;
+  background-position: center;
+}
+.copy {
+  background-position: center;
+}
+.Details {
+  font-size: 1.5rem;
+}
+.contactform {
+  border: 1px solid gray;
+  border-radius: 16px;
+}
+.field{
+  width: 100%;
+  border-radius: 1px;
+}
+.footer{
+  width: 100%;
+  height: 60px;
+  background-color: #BDFFF3;
+}
+.Icon{
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  margin-left: 15px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  padding: 0 10px;
+
+}
+.copy{
+  text-align: center;
+}
+
+
+
+
+
+.section-head{
+     color:var(--secondary);
+     text-align: center;
+     margin-bottom: 1rem;
+     line-height:0.5;
+ }
+ .section-head span{
+color:var(--primary);
+ }
+ section.skills .card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+      grid-row-gap:6rem;
+      grid-column-gap:2rem;
+  }
+  section.skills{
+      background: var(--light);
+  }
+  section.skills .card-wrapper  a{
+        text-decoration: none;
+    }
+    section.skills .card-wrapper .card img{
+        position: absolute;
+        top:-1.5rem;
+        left:50%;
+        transform: translateX(-50%);
+    }
+    section.skills .card-wrapper .card  h2{
+        color:black;
+    }
+
+    section.skills .card-wrapper .card p{
+        font-family: 'Lato', sans-serif;
+        color:var(--ternery);
+        line-height:1.6;
+    }
+    section.skills .card-wrapper .card:hover{
+        background: var(--dark);
+
+    }
+    section.skills .card-wrapper .card:hover h2, section.skills .card-wrapper .card:hover p{
+        color:var(--pure);
+      }
+
+      profile .card-wrapper{
+           display:grid;
+           grid-template-columns: repeat(2, 1fr);
+           grid-row-gap:6rem;
+           grid-column-gap:2rem;
+       }
